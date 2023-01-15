@@ -6,7 +6,7 @@ import mtnLogo from "../assets/images/mtn.svg";
 export default function Dashboard() {
   return (
     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-      <div className="w-auto h-52 md:h-72 lg:h-96 py-3 md:py-6 lg:py-10 px-6 lg:px-20 bg-gradient-to-r flex justify-between from-gradient1 to-gradient2 rounded-3xl">
+      <div className="w-auto h-52 md:h-72 lg:h-96 py-3 md:py-6 lg:py-10 px-6 lg:px-20 bg-gradient-to-r flex justify-between from-gradient1 to-gradient2 rounded-3xl shadow-2xl shadow-gradient1">
         <div className="relative">
           <div className=" w-40 h-40 md:w-52 md:h-52 lg:w-64 lg:h-64 rounded-full bg-gradient-to-r from-balancegrad1 to-balancegrad2"></div>
           <div className=" w-40 h-40 md:w-52 md:h-52  lg:h-64 lg:w-64  rounded-full absolute top-1 left-2 md:bottom-12 md:left-3 bg-primary">
@@ -117,7 +117,7 @@ export default function Dashboard() {
       <div className=" mt-12">
         <p className=" text-3xl font-normal mb-5">Services</p>
         <div className="grid grid-cols-3 lg:grid-cols-4 gap-x-3 md:gap-x-10 lg:gap-x-10 gap-y-4 lg:gap-y-6">
-          <button className=" w-auto h-12 lg:h-16 bg-gradient1 rounded-xl flex justify-around p-1 lg:p-3 text-primary place-items-center text-lg lg:text-xl">
+          <button className=" w-auto h-12 lg:h-16 bg-gradient1 rounded-xl flex justify-around p-1 lg:p-3 text-primary place-items-center text-lg lg:text-xl shadow-2xl shadow-gradient1">
             <svg
               className=" h-6 w-6 lg:h-10 lg:w-10 "
               xmlns="http://www.w3.org/2000/svg"
@@ -133,11 +133,11 @@ export default function Dashboard() {
             </svg>
             <span>Buy Data</span>
           </button>
-          <button className=" w-auto h-12 lg:h-16 bg-gradient1 rounded-xl flex justify-around p-3 text-primary place-items-center text-base lg:text-xl">
+          <button className=" w-auto h-12 lg:h-16 bg-gradient1 rounded-xl flex justify-around p-3 text-primary place-items-center text-base lg:text-xl shadow-2xl shadow-gradient1">
           <svg className="h-4 w-4 lg:h-10 lg:w-10 " xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 20 20" fill="none"><path fill="#fff" d="m5.333 3-2 3h1.334v2l2-3H5.333V3Z"/><path fill="#fff" fill-rule="evenodd" d="M9.637 5.424a4.522 4.522 0 0 1-.995 2.339c-.32.391-1.135 1.51-1.309 2.237H2.667c-.174-.727-.99-1.846-1.31-2.238a4.49 4.49 0 0 1-.563-4.837 4.605 4.605 0 0 1 1.722-1.89A4.738 4.738 0 0 1 5.001.333c.879 0 1.74.244 2.484.703a4.604 4.604 0 0 1 1.722 1.89c.38.774.53 1.642.43 2.498ZM6.86 9.334H3.139a7.038 7.038 0 0 0-.509-.936c-.232-.366-.485-.72-.757-1.058a3.823 3.823 0 0 1-.48-4.122 3.938 3.938 0 0 1 1.473-1.616A4.072 4.072 0 0 1 5 1c.756 0 1.496.21 2.135.603.633.39 1.144.95 1.472 1.616a3.823 3.823 0 0 1-.482 4.122c-.272.338-.525.691-.757 1.058a7.029 7.029 0 0 0-.508.934Z" clip-rule="evenodd"/><path fill="#fff" d="M2.667 11A.333.333 0 0 1 3 10.667h4a.333.333 0 1 1 0 .666H3A.333.333 0 0 1 2.667 11Z"/><path fill="#fff" fill-rule="evenodd" d="M2.667 12h4.666v1a.667.667 0 0 1-.666.667H3.333A.667.667 0 0 1 2.667 13v-1Zm.666.667h3.334V13H3.333v-.333Z" clip-rule="evenodd"/></svg>
             <span>Electricty payment</span>
           </button>
-          <button className=" w-auto h-12 lg:h-16 bg-gradient1 rounded-xl flex justify-around p-3 text-primary place-items-center text-base lg:text-xl">
+          <button className=" w-auto h-12 lg:h-16 bg-gradient1 rounded-xl flex justify-around p-3 text-primary place-items-center text-base lg:text-xl shadow-2xl shadow-gradient1">
             <svg
               className="h-6 w-6 lg:h-10 lg:w-10"
               xmlns="http://www.w3.org/2000/svg"
@@ -161,7 +161,7 @@ export default function Dashboard() {
             </svg>
             <span>Buy Airtime</span>
           </button>
-          <button className=" w-auto h-12 lg:h-16 bg-gradient1 rounded-xl flex justify-around p-3 text-primary place-items-center text-base lg:text-xl">
+          <button className=" w-auto h-12 lg:h-16 bg-gradient1 rounded-xl flex justify-around p-3 text-primary place-items-center text-base lg:text-xl shadow-2xl shadow-gradient1">
             <svg
               className="h-6 w-6 lg:h-10 lg:w-10"
               xmlns="http://www.w3.org/2000/svg"
@@ -177,7 +177,7 @@ export default function Dashboard() {
             </svg>
             <span>Check balance</span>
           </button>
-          <button className=" w-auto h-12 lg:h-16 bg-gradient1 rounded-xl flex justify-around p-3 text-primary place-items-center text-base lg:text-xl">
+          <button className=" w-auto h-12 lg:h-16 bg-gradient1 rounded-xl flex justify-around p-3 text-primary place-items-center text-base lg:text-xl shadow-2xl shadow-gradient1">
             <svg
               className="h-6 w-6 lg:h-10 lg:w-10 "
               xmlns="http://www.w3.org/2000/svg"
@@ -196,7 +196,7 @@ export default function Dashboard() {
         </div>
       </div>
       <div className="grid grid-cols-2 gap-5 lg:gap-10 justify-between mt-12">
-        <div className=" bg-gradient-to-r from-glograd to-balancegrad2 w-auto h-44 lg:h-60 rounded-3xl px-5 py-7 lg:p-14 flex justify-between">
+        <div className=" bg-gradient-to-r from-glograd to-balancegrad2 w-auto h-44 lg:h-60 rounded-3xl px-5 py-7 lg:p-14 flex justify-between shadow-2xl shadow-glograd">
           <div>
             <p className=" text-base lg:text-2xl font-normal mb-3 text-[#5D6C74]">
               Glo data @85% 🔥
@@ -208,7 +208,7 @@ export default function Dashboard() {
             <img src={gloLogo} alt="glo logo" className=" h-20 w-20" />
           </div>
         </div>
-        <div className=" bg-gradient-to-r from-airtelgrad to-balancegrad2 w-auto h-44 lg:h-60 rounded-3xl px-2 py-7 lg:p-14 flex justify-between">
+        <div className=" bg-gradient-to-r from-airtelgrad to-balancegrad2 w-auto h-44 lg:h-60 rounded-3xl px-2 py-7 lg:p-14 flex justify-between shadow-2xl shadow-airtelgrad">
           <div>
             <p className=" text-base lg:text-2xl font-normal mb-3 text-[#5D6C74]">
               Airtel Coperate Gifting 🔥{" "}
@@ -219,7 +219,7 @@ export default function Dashboard() {
             <img src={airtelLogo} alt="airtel logo" className=" h-16 w-16" />
           </div>
         </div>
-        <div className=" bg-gradient-to-r from-mtngrad to-balancegrad2 w-auto h-44 lg:h-60 rounded-3xl px-2 py-7 lg:p-14 flex justify-between">
+        <div className=" bg-gradient-to-r from-mtngrad to-balancegrad2 w-auto h-44 lg:h-60 rounded-3xl px-2 py-7 lg:p-14 flex justify-between shadow-2xl shadow-mtngrad">
           <div>
             <p className=" text-base lg:text-2xl font-normal mb-3 text-[#5D6C74]">
             MTN Coperate Gifting  🔥 {" "}
