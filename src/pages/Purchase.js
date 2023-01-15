@@ -80,7 +80,7 @@ export default function Purchase() {
               Phone Number:
             </label>
             <input
-              className=" text-4xl font-normal w-auto md:my-4 border-2 ml-10 rounded-lg border-gradient1 p-2 "
+              className=" text-4xl font-normal w-auto my-4 md:my-4 border-2 ml-10 rounded-lg border-gradient1 p-2 "
               required
               placeholder="08x xxxxxxxx"
               type={"tel"}
@@ -92,7 +92,7 @@ export default function Purchase() {
               Data Plan Group:
             </label>
             <input
-              className=" text-4xl font-normal w-auto md:my-4 border-2 md:ml-10 lg:ml-7 rounded-lg border-gradient1 p-2"
+              className=" text-4xl font-normal w-auto my-4 md:my-4 border-2 ml-10 lg:ml-7 rounded-lg border-gradient1 p-2"
               data-bs-toggle="modal" data-bs-target="#dataPlanGroup"
               readOnly
               placeholder="Select Data Plan Group"
@@ -105,7 +105,7 @@ export default function Purchase() {
               Network Plans:
             </label>
             <input
-              className=" text-4xl font-normal w-auto md:my-4 border-2 md:ml-10 lg:ml-14 rounded-lg border-gradient1 p-2"
+              className=" text-4xl font-normal w-auto my-4 md:my-4 border-2 ml-10 lg:ml-14 rounded-lg border-gradient1 p-2"
               data-bs-toggle="modal" data-bs-target="#dataPlan"
               readOnly
               placeholder="Select a Data Plan"
@@ -138,7 +138,7 @@ export default function Purchase() {
               Password:
             </label>
             <input
-              className=" text-4xl font-normal w-auto border-2 ml-10 rounded-lg border-gradient1 p-2 "
+              className=" text-4xl font-normal w-auto my-4 border-2 ml-10 rounded-lg border-gradient1 p-2 "
               required
               placeholder="••••••••"
               type={"tel"}
