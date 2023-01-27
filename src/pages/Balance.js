@@ -33,7 +33,7 @@ export default function Balance() {
         </div>
 
         <div className=" flex flex-col justify-between mt-8">
-          <div className="flex justify-between my-5">
+          <div className="flex justify-around my-5">
             <figure>
               <div className=" h-32 md:h-40 lg:h-56 xl:h-64 w-auto bg-[#FEC52866] rounded-3xl p-2 shadow-2xl shadow-mtngrad">
                 <img src={mtnLogo} alt="mtn logo" className=" h-full w-full" />
@@ -42,8 +42,10 @@ export default function Balance() {
                 MTN
               </figcaption>
             </figure>
-            <div>
-                <p></p>
+            <div className="flex flex-col text-3xl text-[#5D6C74] font-normal gap-10 justify-center">
+                <p>Normal Data : *131*4#</p>
+                <p>SME Data : *461*4#</p>
+                <p>Airtime  : *461*4#</p>
             </div>
           </div>
           <div className="flex justify-between my-5">
