@@ -1,4 +1,5 @@
 import {  Routes, Route } from "react-router-dom";
+import Balance from "./pages/Balance";
 import Cable from "./pages/Cable";
 import Dashboard from "./pages/Dashboard";
 import Electricty from "./pages/Electricity";
@@ -15,6 +16,7 @@ function App() {
         <Route path="/recharge" element={<Recharge/>}/>
         <Route path="/cable" element={<Cable/>}/>
         <Route path="/electricity" element={<Electricty/>}/>
+        <Route path="/balance" element={<Balance/>}/>
       </Routes>
     </>
   );
