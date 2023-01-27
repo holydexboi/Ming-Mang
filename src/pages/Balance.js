@@ -43,12 +43,12 @@ export default function Balance() {
               </figcaption>
             </figure>
             <div className="flex flex-col text-3xl text-[#5D6C74] font-normal gap-10 justify-center">
-                <p>Normal Data : *131*4#</p>
-                <p>SME Data : *461*4#</p>
-                <p>Airtime  : *461*4#</p>
+              <p>Normal Data : *131*4#</p>
+              <p>SME Data : *461*4#</p>
+              <p>Airtime : *461*4#</p>
             </div>
           </div>
-          <div className="flex justify-between my-5">
+          <div className="flex justify-around my-5">
             <figure>
               <div className="h-32 md:h-40 lg:h-56 xl:h-64 w-auto bg-[#5BFD1F66] rounded-3xl p-2 shadow-2xl shadow-glograd">
                 <img src={gloLogo} alt="glo logo" className=" h-full w-full" />
@@ -57,8 +57,12 @@ export default function Balance() {
                 GLO
               </figcaption>
             </figure>
+            <div className="flex flex-col text-3xl text-[#5D6C74] font-normal gap-10 justify-center">
+              <p>Normal Data : *127*0#</p>
+              <p>Airtime : *124#</p>
+            </div>
           </div>
-          <div className="flex justify-between my-5">
+          <div className="flex justify-around my-5">
             <figure>
               <div className="h-32 md:h-40 lg:h-56 xl:h-64 w-auto bg-[#ED1B2466] rounded-3xl p-2 shadow-2xl shadow-airtelgrad">
                 <img
@@ -71,8 +75,12 @@ export default function Balance() {
                 AIRTEL
               </figcaption>
             </figure>
+            <div className="flex flex-col text-3xl text-[#5D6C74] font-normal gap-10 justify-center">
+              <p>Normal Data : *140#</p>
+              <p>Airtime : *123#</p>
+            </div>
           </div>
-          <div className="flex justify-between my-5">
+          <div className="flex justify-around my-5">
             <figure>
               <div className="h-32 md:h-40 lg:h-56 xl:h-64 w-auto bg-[#123B0280] rounded-3xl p-2 shadow-2xl shadow-[#123B0280]">
                 <img
@@ -85,6 +93,10 @@ export default function Balance() {
                 9MOBILE
               </figcaption>
             </figure>
+            <div className="flex flex-col text-3xl text-[#5D6C74] font-normal gap-10 justify-center">
+              <p>Normal Data : *228#</p>
+              <p>Airtime : *232#</p>
+            </div>
           </div>
         </div>
       </div>
