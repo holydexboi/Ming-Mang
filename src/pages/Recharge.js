@@ -79,7 +79,7 @@ export default function Recharge() {
               Phone Number:
             </label>
             <input
-              className=" text-4xl font-normal w-auto my-4 md:my-4 border-2 ml-10 rounded-lg border-gradient1 p-2 "
+              className=" text-4xl font-normal w-auto my-4 md:my-4 border-2 ml-10 md:ml-20 lg:ml-16 rounded-lg border-gradient1 p-2 "
               required
               placeholder="08x xxxxxxxx"
               type={"tel"}
@@ -133,7 +133,7 @@ export default function Recharge() {
           </fieldset>
           <p className="text-2xl -mt-7 text-center text-[#5D6C74]">Forgot Password?</p>
           <div className="flex justify-center w-1/3 my-12 mx-auto">
-            <button className=" text-3xl font-medium bg-[#6FE044] text-[#5D6C74] text-center w-full h-16 p-3 rounded-3xl shadow-2xl shadow-[#6FE044]">Subscribe</button>
+            <button className=" text-3xl font-medium bg-[#6FE044] text-[#5D6C74] text-center w-full h-16 p-3 rounded-3xl shadow-2xl shadow-[#6FE044]">Recharge</button>
           </div>
         </form>
       </div>
